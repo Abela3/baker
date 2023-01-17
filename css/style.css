@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-image: url("https://cdn.wallpapersafari.com/48/43/BhJ8uE.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+
+}
+
+.hdrfont {
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.logo {
+    font-family: 'Lato', sans-serif;
+}
+
+.color {
+    font-weight: bold;
+}
+
+
+.color a:hover {
+    transition: 0.7s;
+    color: aliceblue;
+}
+
+a[href="#section1"] {
+    font-size: 25px;
+    z-index: 99;
+    margin-top: 50px;
+}
+
+.cards img {
+    width: 80px;
+}
+
+.clasi {
+    background-color: rgba(199, 245, 247, 0.747);
+    padding-bottom: 35px;
+}
+
+.clasi .mt-4::after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: rgb(255, 153, 0);
+    display: block;
+    margin: 20px auto;
+
+}
+
+.biglet h3::first-letter {
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.biglet h3 {
+    color: rgb(88, 88, 88);
+}
+
+.biglet a {
+    color: rgb(255, 153, 0);
+    text-decoration: none;
+}
+
+.wallpapers img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    height: 350px;
+    background-image: url('https://rare-gallery.com/uploads/posts/540930-haze-edge-rock.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: lighten;
+    background-color: black;
+}
+
+.carousel-item img {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #fff;
